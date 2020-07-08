@@ -97,7 +97,7 @@ body{
     }
     .feature{
         margin-top: 320px;
-        margin-left: 60px;
+        margin-left: auto;
     }
     .my-feature{
         margin-left: 50px;
