@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.btn-outline-success{
+    border-radius: 50px;
+    background-color: #28a745;
+    color: white;
+}
+.logo{
+    width: 100px;
+    height: auto;
+}
+.section{
+    margin-top: 100px;
+}
+.background-banner{
+    width: 100%;
+    height: 576px;
+    background-color: #F0FFF0;
+}
+.container-fluid {
+    width: 100%;
+}
+.banner-img{
+    width: 554px;
+    height: 346px;
+}
+.banner-first-parag{
+    color: #FD511A;
+}
+
+.special-tag{
+    color: #28a745;
+}
+.normal-tag{
+    color: #6C6B6B;
+    margin-top: 20px;
+}
+.features-img{
+    width: 66px;
+    height: 85px;
+    margin: auto;
+    margin-top: 50px;
+}
+.card{
+    background-color: #F8FFFB;
+}
+.online-courses{
+    color: #413960;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 15px 0;
+}
+.online-course-details{
+    margin: auto;
+}
+.card-title{
+    color: #413960;
+}
+.card-footer{
+    border-top: none;
+}
+.testimonial-content{
+    margin-top: 50px;
+}
+.testimonial-img{
+    width: 120px;
+    height: 120px;
+}
+.testimonial-paragraph{
+    line-height: 30px;
+    font-size: 16px;
+    color: #413960;
+}
+.footer-bg{
+    background-color: #282531;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 50px 0px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .section{
+        margin-top: 50px;
+    }
+    .logo{
+        width: 150px;
+        height: auto;
+    }
+    .feature{
+        margin-top: 320px;
+        margin-left: 60px;
+    }
+    .my-feature{
+        margin-left: 50px;
+        margin-top: 20px;
+        width: 14rem;
+    }
+    .online-course-details{
+        margin: auto;
+        margin-top: 20px;
+    }
+    .testimonial-img{
+        margin: auto;
+    }
+    .testimonial-paragraph{
+        margin: 30px 0px;
+        text-align: center;
+    }
+    .footer-spacing{
+        margin-top: 20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .online-course-details{
+        margin: auto;
+        margin-top: 30px;
+    }
+    .testimonial-img{
+        margin: auto;
+    }
+    .feature{
+        margin-top: 370px;
+    }
+    .my-feature{
+        width: 14rem;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .testimonial-paragraph{
+        margin: 30px 0px;
+        text-align: center;
+    }
+    .footer-spacing{
+        margin-top: 20px;
+    }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .feature{
+        margin-top: 100px;
+    }
+    .my-feature{
+        margin: auto;
+        margin-top: 50px;
+    }
+    .online-section{
+        width: auto;
+    }
+    .online-course-details{
+        margin-top: 30px;
+        margin: auto;
+        max-width: 14rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+    .online-course-details{
+        margin-top: 30px;
+        margin: auto;
+        max-width: 18rem;
+    }
+    .feature{
+        margin-top: 100px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .online-course-details{
+        margin-top: 30px;
+        margin: auto;
+        max-width: 18rem;
+    }
+    .feature{
+        margin-top: 100px;
+    }
+}
