@@ -9,10 +9,12 @@ body{
     background-color: #28a745;
     color: white;
 }
+/* logo class is used to resize logo image */
 .logo{
     width: 100px;
     height: auto;
 }
+/* section class is used to make a gap between each section */
 .section{
     margin-top: 100px;
 }
@@ -28,17 +30,24 @@ body{
     width: 554px;
     height: 346px;
 }
+
+/* banner-first class is used to style the first element of the banner */
 .banner-first-parag{
     color: #FD511A;
 }
 
+/* special-tag class is used to style the second line of h2 element of the banner */
 .special-tag{
     color: #28a745;
 }
+
+/* normal-tag class is used to style the normal line of p element of the banner */
 .normal-tag{
     color: #6C6B6B;
     margin-top: 20px;
 }
+
+/* feature-img class is used to style the icon of the feature */
 .features-img{
     width: 66px;
     height: 85px;
@@ -48,12 +57,16 @@ body{
 .card{
     background-color: #F8FFFB;
 }
+
+/* online-courses class is used to style the font of the heading of the course section */
 .online-courses{
     color: #413960;
     font-size: 36px;
     font-weight: bold;
     padding: 15px 0;
 }
+
+/* .online-course-details class is used to position the content of the course section in the middle */
 .online-course-details{
     margin: auto;
 }
@@ -63,18 +76,26 @@ body{
 .card-footer{
     border-top: none;
 }
+
+/* testimonial-content class is used to make a gap from the other section */
 .testimonial-content{
     margin-top: 50px;
 }
+
+/* testimonial-img class is used to resize the image of the testimonial section */
 .testimonial-img{
     width: 120px;
     height: 120px;
 }
+
+/* testimonial-paragraph class is used to style the font of testimonial section paragraph */
 .testimonial-paragraph{
     line-height: 30px;
     font-size: 16px;
     color: #413960;
 }
+
+/* footer-bg class is used to style the background of footer */
 .footer-bg{
     background-color: #282531;
     width: 100%;
@@ -88,22 +109,32 @@ body{
         overflow-x: hidden;
         overflow-y: auto;
     }
+
+
+    /* section class is used to make gap between each section */
     .section{
         margin-top: 50px;
     }
+    /* logo class is used to resize logo image */
     .logo{
         width: 150px;
         height: auto;
     }
+
+    /* feature class is used to make a gap between feature and banner section in small device */
     .feature{
         margin-top: 320px;
         margin-left: auto;
     }
+
+    /* my-feature class is used to stylize the icon of the features */
     .my-feature{
         margin-left: 50px;
         margin-top: 20px;
         width: 14rem;
     }
+
+    /* .online-course-details class is used to stylize the content of the courses section */
     .online-course-details{
         margin: auto;
         margin-top: 20px;
@@ -122,6 +153,7 @@ body{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+     /* .online-course-details class is used to stylize the content of the courses section */
     .online-course-details{
         margin: auto;
         margin-top: 30px;
@@ -129,9 +161,13 @@ body{
     .testimonial-img{
         margin: auto;
     }
+
+    /* feature class is used to make a gap between feature and banner section in small device */
     .feature{
         margin-top: 370px;
     }
+
+    /* my-feature class is used to stylize the icon of the features */
     .my-feature{
         width: 14rem;
         margin: auto;
@@ -147,9 +183,12 @@ body{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    /* feature class is used to make a gap between feature and banner section in medium device */
     .feature{
         margin-top: 100px;
     }
+
+    /* my-feature class is used to stylize the icon of the features */
     .my-feature{
         margin: auto;
         margin-top: 50px;
@@ -157,6 +196,7 @@ body{
     .online-section{
         width: auto;
     }
+     /* .online-course-details class is used to stylize the content of the courses section */
     .online-course-details{
         margin-top: 30px;
         margin: auto;
@@ -166,12 +206,14 @@ body{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-   
+     /* .online-course-details class is used to stylize the content of the courses section */
     .online-course-details{
         margin-top: 30px;
         margin: auto;
         max-width: 18rem;
     }
+
+    /* feature class is used to make a gap between feature and banner section in large device */
     .feature{
         margin-top: 100px;
     }
@@ -184,6 +226,7 @@ body{
         margin: auto;
         max-width: 18rem;
     }
+    /* feature class is used to make a gap between feature and banner section in large  device */
     .feature{
         margin-top: 100px;
     }
